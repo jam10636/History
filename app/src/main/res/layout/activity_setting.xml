@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/settingsactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/lifestory">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Life Story Line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Life Story Lines" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/lifespinner"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/lifeswitch"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:id="@+id/familyline">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Family Tree Line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Family Tree lines" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/familytreespinner"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/familytreeswitch"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/spouseline">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spouse Lines" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Spouses lines" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spousespinner"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/spouseswitch"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/maptype">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Map Type" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BackGround on Map" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/mapspinner"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/resyncdata">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Re-Sync Data" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From Family Service" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/logout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log Out" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To Login Screen" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>

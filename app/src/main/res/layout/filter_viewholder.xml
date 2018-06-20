@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/upperfilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event" />
+
+            <TextView
+                android:id="@+id/lowerfilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filter by events" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/swtiches"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+</LinearLayout>

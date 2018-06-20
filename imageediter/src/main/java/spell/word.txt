@@ -1,0 +1,6 @@
+ord
+c
+for
+c
+in
+s

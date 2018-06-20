@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/personfistname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="First Name" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/personlastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Last Name" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@android:color/black"/>
+        <TextView
+                android:id="@+id/persongender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Gender" />
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@android:color/black"/>
+        </LinearLayout>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:text="LIFE EVENTS"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/eventlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:text="Family"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/peoplelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

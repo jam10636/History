@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/mapid"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_weight="0.8"/>
+    <LinearLayout
+        android:id="@+id/holder"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:id="@+id/gendericon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView android:id="@+id/personname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Click on a marker"
+                android:layout_gravity="center"/>
+
+            <TextView android:id="@+id/locationandyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="to see event details"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
